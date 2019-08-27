@@ -3,7 +3,8 @@ include("includes/config.ini.php");
 
 $smarty->assign("titulo", "inicio");
 $smarty->display("header.html");
-//$smarty->display("footer.html");
+$smarty->display("menu.html");
+$smarty->display("footer.html");
 
 
 ?>
